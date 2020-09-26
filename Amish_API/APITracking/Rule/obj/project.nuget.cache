@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "DbqqSJjIo0PAC5EXa9tbUc52GOp0B7hZdZMLewDf1Pda1V8jXIvDrN1WfbiNrB4jSXYozgl5d6XRsIdzsHLrAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Rule\\Rule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.8\\microsoft.extensions.configuration.fileextensions.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.8\\microsoft.extensions.configuration.json.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.8\\microsoft.extensions.fileproviders.physical.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.8\\microsoft.extensions.filesystemglobbing.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\mysqlconnector\\1.0.1\\mysqlconnector.1.0.1.nupkg.sha512",
+    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
