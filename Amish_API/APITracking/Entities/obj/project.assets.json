@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\ext_dadelgado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Entities\\obj\\",
+      "outputPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ext_dadelgado\\AppData\\Roaming\\NuGet\\NuGet.Config",

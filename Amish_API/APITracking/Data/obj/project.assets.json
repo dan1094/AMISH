@@ -293,11 +293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Data\\Data.csproj",
+      "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\ext_dadelgado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Data\\obj\\",
+      "outputPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ext_dadelgado\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -313,8 +313,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Entities\\Entities.csproj"
+            "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj"
             }
           }
         }

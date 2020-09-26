@@ -12,3 +12,17 @@ C:\Users\ext_dadelgado\source\repos\APITracking\Rule\obj\Debug\netcoreapp3.1\Rul
 C:\Users\ext_dadelgado\source\repos\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.dll
 C:\Users\ext_dadelgado\source\repos\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.pdb
 C:\Users\ext_dadelgado\source\repos\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csproj.CoreCompileInputs.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.deps.json
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.pdb
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Data.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csprojAssemblyReference.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csproj.CoreCompileInputs.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.AssemblyInfoInputs.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.AssemblyInfo.cs
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csproj.CopyComplete
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.pdb

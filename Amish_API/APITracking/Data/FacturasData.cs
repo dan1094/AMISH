@@ -24,7 +24,7 @@ namespace Data
                 {
                     registro = new FacturaEntity
                     {
-                        IdFactura = (int)reader["idEstado"],
+                        IdFactura = (int)reader["idFactura"],
                         IdentificacionCliente = (string)reader["NumDocCliente"],
                         NombreCliente = (string)reader["NomCliente"],
                         FechaCompra = (DateTime)reader["FechaCompra"]

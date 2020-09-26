@@ -12,4 +12,11 @@ namespace Entities
         public int IdOrden { get; set; }
         public string IdentificacionCliente { get; set; }
     }
+
+    public class MensajeDto {
+        public string Mensaje { get; set; }
+        public string Telefono { get; set; }
+        public string Correo { get; set; }
+    }
+
 }

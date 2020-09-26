@@ -19,7 +19,7 @@ namespace APITracking.Controllers
             {
                 using (OrdenRule rule = new OrdenRule())
                 {
-                    var r = rule.ConsultaOrdenes(new Filtro());
+                    var r = rule.ConsultaOrdenes(filtro);
                     if (r.Count > 0)
                     {
                         response.Data = r;
@@ -43,23 +43,23 @@ namespace APITracking.Controllers
         }
 
         [HttpPost]
-        public Response<OrdenEntity> CrearOrden(OrdenEntity orden) {
+        public Response<bool> CrearOrden(OrdenEntity orden) {
 
-            Response<OrdenEntity> response = new Response<OrdenEntity>();
+            Response<bool> response = new Response<bool>();
             try
             {
                 using (OrdenRule rule = new OrdenRule())
                 {
                     var r = rule.CrearOrden(orden);
-                    if (r != null)
+                    if (r)
                     {
                         response.Data = r;
-                        response.Message = $"Orden {r.IdOrden} creada";
+                        response.Message = $"Orden creada";
                         response.StatusCode = HttpStatusCode.OK;
                     }
                     else
                     {
-                        response.Data = null;
+                        response.Data = r;
                         response.Message = "No se encontraron registros";
                         response.StatusCode = HttpStatusCode.NotFound;
                     }

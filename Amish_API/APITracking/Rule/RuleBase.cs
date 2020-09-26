@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -82,15 +83,13 @@ namespace Rule
             }
             return null;
         }
-
-
         public static string RequestGet(string url)
         {
             //long length = 0;
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-               // request.Method = "GET";
+                // request.Method = "GET";
 
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
@@ -111,6 +110,50 @@ namespace Rule
                 return ex.Message + " " + ex.StackTrace;// Log exception and throw as for GET example above
             }
             return null;
+        }
+        public void EnviarEmailCambioEstado(string correo, string mensaje)
+        {
+            string strUrlApi = "http://co2cvw163a:47001/api/Email/registrarCorreo";
+            var obj = new
+            {
+                encabezado = new
+                {
+                    idOperacion = 9,
+                    fechaEnvio = "2020-09-26"
+                },
+                clienteIdentificacion = new
+                {
+                    tipoIdentificacion = 1,
+                    numeroIdentificacion = "1019046353"
+                },
+                para = correo,
+                cc = "",
+                cco = "",
+                asunto = "Test de envio de correo electronico",
+                mensaje = new
+                {
+                    plantilla = new
+                    {
+                        id = 0,
+                        datos = new { }
+                    },
+                    mensaje = $"<html><body>{mensaje}</body></html>"
+                },
+                adjuntos = new List<string>().ToArray()
+            };
+
+
+            //JavaScriptSerializer serializer = new JavaScriptSerializer();
+            string json = JsonConvert.SerializeObject(obj, Formatting.Indented);
+            string respEmail = RequestPost(strUrlApi, json);
+
+        }
+        public void EnviarSmsCambioEstado(string telefono, string mensaje)
+        {
+            string url = "https://api.masivapp.com/SmsHandlers/sendhandler.ashx?action=sendmessage&username=Api_LH6SK&password=CT6S47QWKW&recipient="
+                + telefono + "&messagedata=" + mensaje;
+
+            RequestGet(url);
         }
 
     }

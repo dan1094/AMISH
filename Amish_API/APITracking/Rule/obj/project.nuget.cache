@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbqqSJjIo0PAC5EXa9tbUc52GOp0B7hZdZMLewDf1Pda1V8jXIvDrN1WfbiNrB4jSXYozgl5d6XRsIdzsHLrAg==",
+  "dgSpecHash": "BbWWm32PIUBDQ9tIIcWh1qzxv0gDpiumwJ2kiaPcxGCPD9K7v5BKoKe3tfE680sg5ePyAU/Z0X8cQ+BHqj3kKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ext_dadelgado\\source\\repos\\APITracking\\Rule\\Rule.csproj",
+  "projectFilePath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Rule\\Rule.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
     "C:\\Users\\ext_dadelgado\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
