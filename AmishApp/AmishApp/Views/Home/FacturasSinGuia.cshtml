@@ -1,0 +1,54 @@
+﻿@model BillRequestModel
+@{
+    ViewData["Title"] = "AmIsH App";
+}
+
+<!-- CONTENT -->
+<section class="app-content">
+    <div class="col-md-12">
+        <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-2">
+                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                        <h4 class="panel-title">Solicitar Operador</h4>
+                        <i class="fa acc-switch"></i>
+                    </a>
+                </div>
+                <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                    <div class="panel-body">
+                        <div class="col-md-12">
+                            <div class="widget p-lg">
+                                @using (Html.BeginForm("SolicitarOperador", "Home", FormMethod.Post))
+                                {
+                                    <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+                                        <div class="form-group">
+                                            @Html.EditorFor(model => model.BillIdSearch, new { htmlAttributes = new { @class = "form-control promo-search-field", @placeholder = "Id de la factura", @type = "search" } })
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-2">
+                                        <input type="submit" class="btn btn-primary btn-block promo-search-submit" value="Solicitar Operador">
+                                    </div>
+                                }
+                                @if (Model != null)
+                                {
+                                    <table class="table">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Id Factura</th>
+                                        </tr>
+                                        @foreach (var item in Model.BillModelProperty)
+                                        {
+                                            <tr class="active">
+                                                <td>@item.IdBill</td>
+                                            </tr>
+                                        }
+                                    </table>
+                                }
+                                </div><!-- .widget -->
+                        </div><!-- END column -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- panel-group -->
+    </div><!-- END column -->
+</section>

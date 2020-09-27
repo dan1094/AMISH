@@ -15,3 +15,11 @@ C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

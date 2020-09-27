@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\": {}
+    "C:\\Users\\ext_acalarcon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\ext_dadelgado\\.nuget\\packages\\",
-      "outputPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\obj\\",
+      "projectPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\ext_acalarcon\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ext_dadelgado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ext_acalarcon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

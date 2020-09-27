@@ -348,19 +348,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ext_dadelgado\\.nuget\\packages\\": {}
+    "C:\\Users\\ext_acalarcon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Rule\\Rule.csproj",
+      "projectUniqueName": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Rule\\Rule.csproj",
       "projectName": "Rule",
-      "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Rule\\Rule.csproj",
-      "packagesPath": "C:\\Users\\ext_dadelgado\\.nuget\\packages\\",
-      "outputPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Rule\\obj\\",
+      "projectPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Rule\\Rule.csproj",
+      "packagesPath": "C:\\Users\\ext_acalarcon\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Rule\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ext_dadelgado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ext_acalarcon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -373,11 +373,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Data\\Data.csproj": {
-              "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Data\\Data.csproj"
+            "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Data\\Data.csproj": {
+              "projectPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Data\\Data.csproj"
             },
-            "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Daniel\\Fuentes_Git\\Amish\\Amish_API\\APITracking\\Entities\\Entities.csproj"
+            "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\Amish_API\\APITracking\\Entities\\Entities.csproj"
             }
           }
         }
@@ -411,7 +411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

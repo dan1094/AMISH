@@ -1,0 +1,82 @@
+﻿@model WayBillModel
+@{
+    ViewData["Title"] = "AmIsH App";
+}
+
+<section class="app-content">
+    <div class="col-md-12">
+        <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-1">
+                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                        <h4 class="panel-title">Buscar Guía</h4>
+                        <i class="fa acc-switch"></i>
+                    </a>
+                </div>
+                <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                    <div class="panel-body">
+                        <div class="promo">
+                            <div class="promo-body">
+                                @using (Html.BeginForm("BuscarGuia", "Home", FormMethod.Post))
+                                {
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+                                            <div class="form-group">
+                                                @Html.EditorFor(model => model.WayBillId, new { htmlAttributes = new { @class = "form-control promo-search-field", @placeholder = "Id de la Guía", @type = "search" } })
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-2">
+                                            <input type="submit" class="btn btn-primary btn-block promo-search-submit" value="Buscar Guía">
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        @if (Model != null)
+                        {
+                            <div class="wrap">
+                                <section class="app-content">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading bg-white">
+                                            <p class="panel-title text-muted">Resultado</p>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="row m-b-lg">
+                                                <div class="col-md-4 col-sm-6">
+                                                    <div class="user-card">
+                                                        <div class="media">
+                                                            <div class="media-left">
+                                                                <div class="avatar avatar-lg avatar-circle">
+                                                                    <a href="#"><img src="~/img/logo.png" alt=""></a>
+                                                                    <i class="status status-online"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h5 class="media-heading"><a href="#" class="title-color">Id de la Guía</a></h5>
+                                                                <small class="media-meta">@Model.WayBillId</small>
+                                                                <h5 class="media-heading"><a href="#" class="title-color">Dirección Entrega</a></h5>
+                                                                <small class="media-meta">@Model.BillProperty.ClientProperty.Address</small>
+                                                                <h5 class="media-heading"><a href="#" class="title-color">Nombre Cliente</a></h5>
+                                                                <small class="media-meta">@Model.BillProperty.ClientProperty.Name</small>
+                                                                <h5 class="media-heading"><a href="#" class="title-color">Contacto</a></h5>
+                                                                <small class="media-meta">@Model.BillProperty.ClientProperty.PhoneNumber</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-purple fa fa-whatsapp"></button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

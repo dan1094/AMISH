@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 body {
   background: #edf0f5; }
 
@@ -587,8 +587,9 @@ body.menubar-top .hidden-menubar-top {
   color: #188ae2; }
 
 .bg-primary, .primary {
-  background-color: #188ae2;
-  color: #fff; }
+    background-color: #007833;
+    color: #fff;
+}
 
 .bg-success, .success {
   background-color: #10c469;
@@ -718,9 +719,10 @@ body.menubar-top .hidden-menubar-top {
   height: 38px; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #188ae2;
-  border-color: #188ae2; }
+    color: #fff;
+    background-color: #c6d420;
+    border-color: #2e5f15;
+}
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
     background-color: #136eb4;

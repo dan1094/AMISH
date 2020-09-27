@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\ACAF\\hac\\AmishApp\\AmishApp\\AmishApp\\AmishApp.csproj": {}
+    "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\AmishApp\\AmishApp\\AmishApp.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\ACAF\\hac\\AmishApp\\AmishApp\\AmishApp\\AmishApp.csproj": {
+    "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\AmishApp\\AmishApp\\AmishApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\ACAF\\hac\\AmishApp\\AmishApp\\AmishApp\\AmishApp.csproj",
+        "projectUniqueName": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\AmishApp\\AmishApp\\AmishApp.csproj",
         "projectName": "AmishApp",
-        "projectPath": "C:\\Proyectos\\ACAF\\hac\\AmishApp\\AmishApp\\AmishApp\\AmishApp.csproj",
+        "projectPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\AmishApp\\AmishApp\\AmishApp.csproj",
         "packagesPath": "C:\\Users\\ext_acalarcon\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\ACAF\\hac\\AmishApp\\AmishApp\\AmishApp\\obj\\",
+        "outputPath": "C:\\Proyectos\\ACAF\\hac\\Final\\AMISH\\AmishApp\\AmishApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ext_acalarcon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

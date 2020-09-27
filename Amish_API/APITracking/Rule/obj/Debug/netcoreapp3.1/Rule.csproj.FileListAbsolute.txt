@@ -26,3 +26,16 @@ C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\R
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csproj.CopyComplete
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.dll
 C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.deps.json
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Rule.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Data.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csprojAssemblyReference.cache
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.AssemblyInfoInputs.cache
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.AssemblyInfo.cs
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.csproj.CopyComplete
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.dll
+C:\Proyectos\ACAF\hac\Final\AMISH\Amish_API\APITracking\Rule\obj\Debug\netcoreapp3.1\Rule.pdb
