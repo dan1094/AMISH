@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "AmIsH App";
+}
+
+<!-- CONTENT -->
+<section class="app-content">
+    <div class="col-md-12">
+        <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-1">
+                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                        <h4 class="panel-title">Buscar Guía</h4>
+                        <i class="fa acc-switch"></i>
+                    </a>
+                </div>
+                <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                    <div class="panel-body">
+                        <div class="promo">
+                            <div class="promo-body">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+                                            <div class="form-group">
+                                                <input type="search" class="form-control promo-search-field" placeholder="Id de la Guía">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-2">
+                                            <input type="submit" class="btn btn-primary btn-block promo-search-submit" value="Buscar Guía">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <section class="app-content">
+                                <!-- search results -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading bg-white">
+                                        <p class="panel-title text-muted">1 Resultado</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="row m-b-lg">
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="user-card">
+                                                    <div class="media">
+                                                        <div class="media-left">
+                                                            <div class="avatar avatar-lg avatar-circle">
+                                                                <a href="#"><img src="../assets/images/logo.png" alt=""></a>
+                                                                <i class="status status-online"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5 class="media-heading"><a href="#" class="title-color">Id de la Guía</a></h5>
+                                                            <small class="media-meta">123456789</small>
+                                                            <h5 class="media-heading"><a href="#" class="title-color">Dirección Entrega</a></h5>
+                                                            <small class="media-meta">Calle Falsa 123</small>
+                                                            <h5 class="media-heading"><a href="#" class="title-color">Nombre Cliente</a></h5>
+                                                            <small class="media-meta">Pepe Perez</small>
+                                                            <h5 class="media-heading"><a href="#" class="title-color">Contacto</a></h5>
+                                                            <small class="media-meta">3015689895</small>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- search-result -->
+                                            </div>
+                                        </div><!-- .row -->
+                                    </div>
+                                </div>
+                            </section><!-- #dash-content -->
+                        </div><!-- .wrap -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-2">
+                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                        <h4 class="panel-title">Solicitar Operador</h4>
+                        <i class="fa acc-switch"></i>
+                    </a>
+                </div>
+                <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                    <div class="panel-body">
+                        <div class="col-md-12">
+                            <div class="widget p-lg">
+                                <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+                                    <div class="form-group">
+                                        <input type="search" class="form-control promo-search-field" placeholder="Id de la factura">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-2">
+                                    <input type="submit" class="btn btn-primary btn-block promo-search-submit" value="Solicitar Operador">
+                                </div>
+                                <table class="table">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Id Factura</th>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>1</td>
+                                        <td>857595</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>2</td>
+                                        <td>569874</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>3</td>
+                                        <td>562141</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>4</td>
+                                        <td>123456</td>
+                                    </tr>
+                                    <tr class="success text-color">
+                                        <td>5</td>
+                                        <td>987654</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>6</td>
+                                        <td>369258</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>7</td>
+                                        <td>741258</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>8</td>
+                                        <td>159753</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>9</td>
+                                        <td>846279</td>
+                                    </tr>
+                                </table>
+                            </div><!-- .widget -->
+                        </div><!-- END column -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- panel-group -->
+    </div><!-- END column -->
+</section>
