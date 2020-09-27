@@ -10,36 +10,6 @@ namespace AmishApp.Services
 {
     public class OrdenesService : Conexion
     {
-
-
-
-        //WayBillModel wayBillModelResponse = new WayBillModel()
-        //{
-        //    BillProperty = new BillModel()
-        //    {
-        //        BuyDate = DateTime.Now,
-        //        IdBill = "56434",
-        //        ProductId = "555",
-        //        ClientProperty = new ClientModel()
-        //        {
-        //            Address = "Calle Falsa 123",
-        //            PhoneNumber = "3016346988",
-        //            DocumentId = "456789",
-        //            Email = "acalarconfra@gmail.com",
-        //            Name = "Andrés Camilo Alarcón Franco",
-        //            UserType = "Cliente"
-        //        },
-        //        SellerProperty = new SellerModel()
-        //        {
-        //            Address = "Comercializadora 123",
-        //            PhoneNumber = "3015555555",
-        //            DocumentId = "456789444",
-        //            Email = "falso@gmail.com",
-        //            Name = "Pepe",
-        //            UserType = "Vendedor"
-        //        }
-        //    }
-        //};
         public WayBillModel GetOrder(string urlApi, int idOrder)
         {
             urlApi += $"Ordenes/ListarOrdenes";
@@ -82,12 +52,48 @@ namespace AmishApp.Services
                             Name = result.Factura.NombreVendedor,
                             UserType = "Vendedor"
                         }
-                    }
+                    },
+                    MaxDeliveryDate = result.FechaEntregaMaxima,
+                    MinDeliveryDate = result.FechaEntregaMinima,
+                    StatusProperty = new StatusModel
+                    {
+                        StatusId = result.Estado.IdEstado.ToString(),
+                        Description = result.Estado.Comentario,
+
+                    },
+                    OperatorProperty = new OperatorModel { DocumentId = result.Operador.IdOperador.ToString() },
+                    WayBillId = result.IdOrden.ToString(),
+                    WeightPackage = result.Peso.ToString(),
+                    UrlproductImage = result.UrlFoto,
                 };
             }
 
             return wayBillModelResponse;
         }
 
+        public bool CrearOrder(string urlApi, WayBillModel order)
+        {
+            urlApi += $"Ordenes/CrearOrden";
+            var obj = new
+            {
+                operador = new
+                {
+                    idOperador = order.OperatorProperty.DocumentId
+                },
+                fechaEntregaMinima = order.MinDeliveryDate,
+                fechaEntregaMaxima = order.MaxDeliveryDate,
+                peso = order.WeightPackage,
+                tamanio = "10x15x9",//dimensiones,
+                urlFoto = order.UrlproductImage,
+                factura = new
+                {
+                    idFactura = order.BillProperty.IdBill
+                }
+            };
+            string objJson = JsonConvert.SerializeObject(obj, Formatting.Indented);
+            string response = RequestPost(urlApi, objJson);
+
+            return true;
+        }
     }
 }
