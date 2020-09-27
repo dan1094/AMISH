@@ -78,7 +78,8 @@ namespace Data
                 {
                     retorno = new MensajeDto
                     {
-                        Mensaje = reader.IsDBNull(reader.GetOrdinal("Mensaje")) ? string.Empty : (string)reader["Mensaje"],
+                        MensajeSms = reader.IsDBNull(reader.GetOrdinal("MensajeSms")) ? string.Empty : (string)reader["MensajeSms"],
+                        MensajeEmail = reader.IsDBNull(reader.GetOrdinal("MensajeEmail")) ? string.Empty : (string)reader["MensajeEmail"],
                         Telefono = reader.IsDBNull(reader.GetOrdinal("TelefonoCliente")) ? string.Empty : (string)reader["TelefonoCliente"],
                         Correo = reader.IsDBNull(reader.GetOrdinal("EmailCliente")) ? string.Empty : (string)reader["EmailCliente"],
                     };

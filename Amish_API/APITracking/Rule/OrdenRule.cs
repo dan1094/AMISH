@@ -15,9 +15,9 @@ namespace Rule
                 MensajeDto respuesta = data.CrearOrden(orden);
 
                 //Enviar Correo 
-                if (!string.IsNullOrEmpty(respuesta.Correo)) EnviarEmailCambioEstado(respuesta.Correo, respuesta.Mensaje);
+                if (!string.IsNullOrEmpty(respuesta.Correo)) EnviarEmailCambioEstado(respuesta.Correo, respuesta.MensajeEmail);
                 //Enviar mensaje
-                if (!string.IsNullOrEmpty(respuesta.Mensaje)) EnviarSmsCambioEstado(respuesta.Telefono, respuesta.Mensaje);
+                if (!string.IsNullOrEmpty(respuesta.Telefono)) EnviarSmsCambioEstado(respuesta.Telefono, respuesta.MensajeSms);
                 return true;
             }
         }

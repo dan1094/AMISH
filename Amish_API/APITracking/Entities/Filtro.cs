@@ -14,7 +14,8 @@ namespace Entities
     }
 
     public class MensajeDto {
-        public string Mensaje { get; set; }
+        public string MensajeSms { get; set; }
+        public string MensajeEmail { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
     }

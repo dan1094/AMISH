@@ -1,0 +1,9 @@
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\bin\Release\netcoreapp3.1\Entities.deps.json
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\bin\Release\netcoreapp3.1\Entities.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\bin\Release\netcoreapp3.1\Entities.pdb
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.dll
+C:\Daniel\Fuentes_Git\Amish\Amish_API\APITracking\Entities\obj\Release\netcoreapp3.1\Entities.pdb
